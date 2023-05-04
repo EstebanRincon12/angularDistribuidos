@@ -290,3 +290,26 @@
       visibility: hidden;
     }
   }
+  .parcial {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .back{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .front{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
