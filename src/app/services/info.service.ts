@@ -13,5 +13,6 @@ export class InfoService {
   }
   getNumbers() {
     return this.http.get('http://192.168.0.28:30011/results');
+    
   }
 }
